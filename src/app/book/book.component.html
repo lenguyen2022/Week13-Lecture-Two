@@ -1,0 +1,7 @@
+<h1>book component</h1>
+<p> Title = {{title}}</p>
+
+<a  [routerLink]="['/book/', id, 'edit']"
+    routerLinkActive="active" ariaCurrentWhenActive="page" aria-current="page"> Edit Title </a>
+
+<router-outlet></router-outlet>
